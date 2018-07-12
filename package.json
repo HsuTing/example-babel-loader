@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "yarn lerna exec 'webpack'",
+    "test:fail": "NODE_ENV=fail yarn lerna exec 'webpack'"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.53",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.53",
+    "@babel/preset-env": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0-beta.53",
+    "babel-loader": "8.0.0-beta.3",
+    "lerna": "^2.11.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "3.10.0"
+  }
+}
